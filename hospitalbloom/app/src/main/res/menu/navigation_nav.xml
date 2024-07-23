@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/icPacientes"
+        android:title="Pacientes"
+        android:icon="@drawable/ic_pacientes1"/>
+    <item
+        android:id="@+id/icMedicamentos"
+        android:title="Medicamentos"
+        android:icon="@drawable/ic_medicamentos"/>
+</menu>
