@@ -2,6 +2,7 @@ package adrielmoreno.jaimeperla.hospitalbloom
 
 import Modelo.ClaseConexion
 import Modelo.dataClassMedicina
+import android.app.AlertDialog
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -118,6 +119,7 @@ class Pacientes : Fragment() {
         val icRegresar = root.findViewById<ImageView>(R.id.icRegresar)
         val btnAgregarPacientes = root.findViewById<Button>(R.id.btnAgregarPaciente)
         val btnAgregarMedicamentos = root.findViewById<Button>(R.id.btnMedeicamento)
+
 
 
         txtFechaNacimiento.inputType = InputType.TYPE_NULL
