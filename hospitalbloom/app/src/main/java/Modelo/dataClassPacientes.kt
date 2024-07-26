@@ -7,5 +7,7 @@ data class dataClassPacientes(
     val birthDate: String,
     val disease: String,
     val roomNumber: String,
-    val bedNumber: String
+    val bedNumber: String,
+    val horaAplicacion : String,
+    val medExtras : String
 )
