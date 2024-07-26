@@ -16,7 +16,7 @@
             android:name=".cardPacientes"
             android:exported="false" />
         <activity
-            android:name=".Medicamentos"
+            android:name=".addpaciente"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
